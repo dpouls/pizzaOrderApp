@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="pizza.MainPage">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height=".5*"/>
+            <RowDefinition Height=".5*"/>
+            <RowDefinition Height=".5*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Picker x:Name="PckCrust" Title="Select a Pizza Crust"
+                VerticalOptions="Center"
+                FontSize="25"
+                Grid.ColumnSpan="2"
+                Margin="30,0">
+            <Picker.Items>
+                <x:String>Pan Crust</x:String>
+                <x:String>Thin Crust</x:String>
+            </Picker.Items>
+        </Picker>
+        <Label Grid.Row="1"
+               Text="Cheese"
+               HorizontalOptions="End"
+               VerticalOptions="Center"
+               FontSize="25"/>
+        <Label Grid.Row="2"
+               Text="Pepperoni"
+               HorizontalOptions="End"
+               VerticalOptions="Center"
+               FontSize="25"/>
+        <Label Grid.Row="3"
+               Text="Pineapple"
+               HorizontalOptions="End"
+               VerticalOptions="Center"
+               FontSize="25"/>
+        <Switch x:Name="SwtchCheese"
+                Grid.Row="1"
+                Grid.Column="1"
+                HorizontalOptions="Start"
+                VerticalOptions="Center"/>
+        <Switch x:Name="SwtchPepperoni"
+                Grid.Row="2"
+                Grid.Column="1"
+                HorizontalOptions="Start"
+                VerticalOptions="Center"/>
+        <Switch x:Name="SwtchPineapple"
+                Grid.Row="3"
+                Grid.Column="1"
+                HorizontalOptions="Start"
+                VerticalOptions="Center"/>
+        <ListView x:Name="LstViewCity"
+                  Grid.Row="4"
+                  SelectionMode="Single"
+                  Grid.ColumnSpan="2">
+            <ListView.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>Orem</x:String>
+                    <x:String>American Fork</x:String>
+                    <x:String>Provo</x:String>
+                    <x:String>Dubai</x:String>
+                </x:Array>
+            </ListView.ItemsSource>
+        </ListView>
+        <Button x:Name="BtnOrder"
+                Grid.Row="5"
+                Grid.ColumnSpan="2"
+                Text="Order Pizza"
+                Clicked="BtnOrder_Clicked"/>
+    </Grid>
+
+</ContentPage>

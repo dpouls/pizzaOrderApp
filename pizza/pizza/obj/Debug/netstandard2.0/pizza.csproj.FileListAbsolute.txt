@@ -1,0 +1,14 @@
+C:\Users\dalli\source\repos\pizza\pizza\pizza\bin\Debug\netstandard2.0\pizza.deps.json
+C:\Users\dalli\source\repos\pizza\pizza\pizza\bin\Debug\netstandard2.0\pizza.dll
+C:\Users\dalli\source\repos\pizza\pizza\pizza\bin\Debug\netstandard2.0\ref\pizza.dll
+C:\Users\dalli\source\repos\pizza\pizza\pizza\bin\Debug\netstandard2.0\pizza.pdb
+C:\Users\dalli\source\repos\pizza\pizza\pizza\obj\Debug\netstandard2.0\pizza.csprojAssemblyReference.cache
+C:\Users\dalli\source\repos\pizza\pizza\pizza\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\dalli\source\repos\pizza\pizza\pizza\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\dalli\source\repos\pizza\pizza\pizza\obj\Debug\netstandard2.0\pizza.AssemblyInfoInputs.cache
+C:\Users\dalli\source\repos\pizza\pizza\pizza\obj\Debug\netstandard2.0\pizza.AssemblyInfo.cs
+C:\Users\dalli\source\repos\pizza\pizza\pizza\obj\Debug\netstandard2.0\pizza.csproj.CoreCompileInputs.cache
+C:\Users\dalli\source\repos\pizza\pizza\pizza\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\dalli\source\repos\pizza\pizza\pizza\obj\Debug\netstandard2.0\pizza.dll
+C:\Users\dalli\source\repos\pizza\pizza\pizza\obj\Debug\netstandard2.0\ref\pizza.dll
+C:\Users\dalli\source\repos\pizza\pizza\pizza\obj\Debug\netstandard2.0\pizza.pdb
